@@ -17,6 +17,8 @@ ul {
 	width: 25%;
 	margin: 20px 1.38888889%;
 	padding: 20px;
+	/*position: relative;
+	z-index: 99;*/
 }
 
 .employeeImg {
@@ -26,8 +28,7 @@ ul {
 }
 
 .f_Name,
-.email,
-.state {
+.cardStyle {
 	padding-left: 40%;
 }
 
@@ -37,22 +38,50 @@ ul {
 	margin-bottom: 8px;
 }
 
-.email,
-.state {
+hr,
+.cardStyle {
 	color: #ccc;
+}
+
+.cardStyle {
 	margin: 8px;
 }
 
 
 /* Light Box */
-
-.lghtBox {
-	background-color: #000;
+.overlay {
+	background: rgba(0, 0, 0, 0.5);
+	width: 100%;
+	height: 100%;
 	position: absolute;
 	z-index: 99;
 }
 
+.overlayBox {
+  	margin: 5% 35%;
+  	width: 20%;
+	position: absolute;
+}
 
+.pic {
+	float: none;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	
+}
+
+.moreInfo {
+	text-align: center;
+	padding: .25em;
+}
+
+.btn {
+	margin: 10px 0px 10px 83%;
+	padding: 8px 15px;
+	position: absolute;
+	top: -6px;
+}
 
 
 
